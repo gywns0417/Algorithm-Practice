@@ -13,7 +13,7 @@ public class PrimeNumber3 {
 
         for(int n = 5; n <= 1000; n += 2){ // 대상은 홀수만
             boolean flag = false;
-            for(int i = 1; prime[i] * prime[i] <= n; i++){ //소수인지 검증
+            for(int i = 1; prime[i] * prime[i] <= n;){ //소수인지 검증
                 counter += 2;
                 if(n % prime[i] == 0) // 나누어 떨어지면 소수가 아님
                     flag = true;
