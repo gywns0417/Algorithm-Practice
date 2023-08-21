@@ -12,7 +12,7 @@ import java.util.Scanner;
 // 체크방법 : 슬라이딩 윈도우로 한 칸씩 이동하면서, 새로 생긴 문자에 따라 switch로 ++한다. 만약 그 문자가 최소 개수면 체크변수를 ++ 한다.
 // 빠진 문자는 switch로 -- 한다. 만약 그 문자가 최소개수와 같았으면, 체크변수에 --한다.
 // 추가와 제외를 끝낸 후, 체크 변수 == 4이면, 리턴할 정답에 ++ 한다.
-public class DNA {
+public class DNAPassword_12891_009 {
     static int[] myArr = new int[4];
     static int[] checkArr = new int[4];
     static int check;
